@@ -8,7 +8,7 @@ public class BTFlee : BTNode
         if (enemy.health < 50)
         {
             Vector3 fleeDirection = enemy.transform.position - enemy.player.position;
-            enemy.agent.SetDestination(enemy.transform.position + fleeDirection.normalized * 10f);
+            enemy.agent.SetDestination(enemy.transform.position + fleeDirection.normalized * 10f); // Huye en dirección opuesta al jugador
             return true;
         }
         return false;
