@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 [CreateAssetMenu(fileName = "BTPatrol", menuName = "BehaviourTree/Patrol")]
 public class BTPatrol : BTNode
